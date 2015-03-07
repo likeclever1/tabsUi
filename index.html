@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tabs-ui</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/tabs-ui.css">
+
+
+</head>
+<body>
+    <h1>something like this <a href="http://vdw.github.io/Tabslet">http://vdw.github.io/Tabslet</a></h1>
+
+    <div class="tabs">
+        <nav class="tabs__nav">
+            <a href="#tab-1">tabs-1</a>
+            <a href="#tab-2">tabs-2</a>
+            <a href="#tab-3">tabs-3</a>
+        </nav>
+        <div class="tabs__content">
+            <div id="tab-1" class="tabs__item">
+                <p>1Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur laborum sapiente a excepturi quasi veritatis asperiores adipisci. Sequi facilis voluptatibus neque beatae quibusdam, laborum deserunt aliquid, quis veritatis pariatur iste.</p>
+            </div>
+            <div id="tab-2" class="tabs__item">
+                <p>2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur laborum sapiente a excepturi quasi veritatis asperiores adipisci. Sequi facilis voluptatibus neque beatae quibusdam, laborum deserunt aliquid, quis veritatis pariatur iste.</p>
+            </div>
+            <div id="tab-3" class="tabs__item">
+                <p>3Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur laborum sapiente a excepturi quasi veritatis asperiores adipisci. Sequi facilis voluptatibus neque beatae quibusdam, laborum deserunt aliquid, quis veritatis pariatur iste.</p>
+            </div>
+        </div><!-- end .tabs__content -->
+    </div><!-- end .tabs -->
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    
+    <script type="text/javascript" src="javascript/jquery.tabsUi.js"></script>
+
+    <script type="text/javascript">
+        $(".tabs").tabsUi();
+    </script>
+</body>
+</html>
